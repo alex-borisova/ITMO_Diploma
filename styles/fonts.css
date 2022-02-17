@@ -1,0 +1,27 @@
+/*--Для логотипа--*/
+@font-face {
+    font-family: Usually-font;
+    src: url('../fonts/Usually-font.otf');
+  }
+
+/*--Заголовки--*/
+@font-face {
+  font-family: JuraBold-font;
+  src: url('../fonts/Jura-Bold.ttf');
+}
+
+@font-face {
+  font-family: JuraMedium-font;
+  src: url('../fonts/Jura-Medium.ttf');
+}
+
+/*--Текст--*/
+@font-face {
+  font-family: Rubik-LightItalic;
+  src: url('../fonts/Rubik-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url('../fonts/Rubik-Light.ttf');
+}

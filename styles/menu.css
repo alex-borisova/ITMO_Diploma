@@ -1,0 +1,60 @@
+.menu {
+  background: #555;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  margin-top: -20px; /* так как padding у header */
+}
+
+.menu ul {
+  border-top: 1px solid #bab8b7;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  font-family: Rubik-Light;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  letter-spacing: 4px
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: grey;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  color: white;
+}
+
+.icon-menu {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+#about:before, #products:before, #price:before, #contacts:before {
+	display: block;
+	content: "";
+	height: 100px;
+	margin: -100px 0 0;
+}

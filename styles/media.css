@@ -1,0 +1,403 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    html {
+        font-size: 13px;
+    }
+
+    .about {
+        grid-template-columns: 1fr 5fr 0.7fr 3.5fr 1fr;
+        gap: 1%;
+    }
+
+    .wrapper_about-headline {
+        width: 21%;
+    }
+
+    .about_content {
+        max-height: 500px;
+    }
+
+    .about__img {
+        width: 97%;
+    }
+
+    .primary-text {
+        letter-spacing: 4px;
+        font-size: 1.6rem;
+    }
+
+    .benefit_item {
+        padding-bottom: 35px;
+    }
+
+    .wrapper {
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+    }
+    .item:nth-child(1) {
+        grid-column: 2/3; 
+    }
+
+    .img {
+        width: 250px;
+        height: 298px;
+    }
+    
+    .img_metal {
+        width: 280px;
+        height: 240px;
+    }
+
+    .key_button {
+        padding: 20px;
+    }
+
+    .item:nth-child(2) .key_button {
+        padding: 30px 37px;
+    }
+
+    .products {
+        grid-template-rows: 0.7fr 3fr;
+        padding-bottom: 100px;
+    }
+
+    .price {
+        padding: 20px 40px 100px 40px;
+    }
+
+    .grid_center {
+        padding: 0;
+    }
+
+    .grid_numbers {
+        padding: 50px 0px;
+    }
+
+    .contacts {
+        min-height: 520px;
+    }
+
+    .grid_social {
+        grid-template-rows: 0.1fr 0.5fr;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1139px) {
+    html {
+        font-size: 12px;
+    }
+
+    .wrapper_about-headline {
+        width: 26%;
+    }
+
+    .headline::after {
+        border-width: 2px;
+    }
+
+    .main_subtitle {
+        margin: 50px 0px;
+    }
+
+    .about_content {
+        gap: 3%;
+    }
+
+    .about__img {
+        width: 95%;
+    }
+
+    .benefit_item {
+        padding-bottom: 30px;
+    }
+
+    .products {
+        gap: 57px;
+    }
+
+    .img {
+        width: 200px;
+        height: 220px;
+    }
+
+    .img_metal {
+        width: 220px;
+        height: 194px;
+    }
+
+    .primary-text {
+        letter-spacing: 3px;
+        font-size: 1.2rem;
+    }
+
+    .item:nth-child(2) .key_button {
+        padding: 30px 33px;
+    }
+
+    .content {
+        text-indent: 1em;
+        font-size: 1.2rem;
+    }
+
+    .contacts {
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 10px;
+    }
+
+    .headline::after {
+        border-width: 2px;
+    }
+
+    .main__headline::after {
+        margin: 0px 0px 0px 18px;
+        width: 20%;
+    }
+
+    .header {
+        padding: 15px 18px;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+    }
+    
+    .about {
+        display: block;
+    }
+
+    .about__text {
+        font-size: 1.1rem;
+    }
+
+    .about_content {
+        justify-items: center;
+        grid-template-rows: 17% 7% 50%;
+    }
+
+
+    .about__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrapper_about-headline {
+        width: 24%;
+    }
+
+    .line {
+        width: 90%;
+        height: 0px;
+        background: none;
+        margin: 0px 10px 0px 10px;
+        border-bottom: 3px solid white;
+        margin: 0 auto;
+        padding: 10px 0px;
+    }
+
+    .main_subtitle {
+        text-align: center;
+        margin: 50px 0px;
+        letter-spacing: 5px;
+    }
+
+    .benefits_list {
+        font-size: 1.3rem;
+    }
+
+    .fa-ul {
+        margin-left: 4em;
+    }
+
+    .benefit_item {
+        padding-bottom: 35px;
+    }
+
+
+    .benefit_item:last-child {
+        padding-bottom: 70px;
+    }
+
+    .products {
+        display: block;
+        padding-bottom: 70px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+
+    .wrapper_headline {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .item, .item:nth-child(2) {
+        align-self: normal;
+        padding: 20px 0px
+    }
+
+    .item:nth-child(2) {
+        display: table;
+    }
+
+    .item:nth-child(2) > .products_img {
+        display: table-footer-group;
+    }
+
+    .item:nth-child(2) > .key_button {
+        display: table-header-group;
+    }
+
+    .item > .modal .basic_text {
+        font-size: 1rem;
+    }
+
+    .products_img {
+        display: block;
+    }
+
+    .img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img_ceramic, .img_array {
+        height: 240px;
+        width: 200px;
+    }
+
+    .img_metal {
+        height: 240px;
+        width: 230px;
+    }
+
+    .headline {
+        padding: 10px 0px;
+    }
+
+    .key_button {
+        margin: 0 20px;
+    }
+
+    .price {
+        padding: 10px 0 100px 0;
+    }
+
+    .price_headline {
+        margin-top: 15px;
+    }
+
+    .price_text {
+        padding: 10px;
+    }
+
+    .price .primary-text {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .price_label {
+        font-size: 1rem;
+    }
+
+    .text-price {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .contacts {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        justify-items: stretch;
+        min-height: 700px;
+    }
+
+    .grid_social {
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .socil-links li i {
+        padding: 0px;
+    }
+    .grid_numbers {
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+    .content {
+        text-indent: 1em;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .main__headline::after {
+        margin: 0px 0px 0px 23px;
+        width: 27%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1439px) {
+    html {
+        font-size: 15px
+    }
+
+    .about_content {
+        max-height: 550px;
+    }
+
+    .about__img {
+        max-height: 460px;
+    }
+
+    .contacts {
+        min-height: 500px;
+    }
+
+} 
+
+@media screen and (min-width: 1440px) and (max-width: 1899px) { 
+    html {
+        font-size: 18px;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    .img {
+        width: 300px;
+        height: 342px;
+    }
+
+    .img_metal {
+        width: 370px;
+        height: 318px;
+    }
+
+    .primary-text {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2099px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2559px) {
+    html {
+        font-size: 24px;
+    }
+}
